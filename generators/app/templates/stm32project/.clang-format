@@ -1,0 +1,5 @@
+IndentWidth: 4
+ColumnLimit: 90
+AlignConsecutiveAssignments: true
+AlignTrailingComments: true
+AllowShortCaseLabelsOnASingleLine: true

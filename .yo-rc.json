@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Ericson Joseph",
+      "authorEmail": "ericsonjoseph@gmail.com",
+      "authorUrl": "https://www.ericsonj.net"
+    }
+  }
+}

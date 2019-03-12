@@ -1,0 +1,63 @@
+{
+    "configurations": [
+        {
+            "name": "ARM",
+            "includePath": [
+                "/usr/lib/gcc/arm-none-eabi/7.1.0/include",
+                "/usr/lib/gcc/arm-none-eabi/7.1.0/include-fixed",
+                "${workspaceFolder}/inc",
+                "${workspaceFolder}/libs/CMSIS/Device/ST/STM32F1xx/Include",
+                "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_convolution_example/ARM",
+                "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_convolution_example/GCC",
+                "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_fir_example/ARM",
+                "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_graphic_equalizer_example/ARM",
+                "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_linear_interp_example/ARM",
+                "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_matrix_example/ARM",
+                "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_signal_converge_example/ARM",
+                "${workspaceFolder}/libs/CMSIS/Include",
+                "${workspaceFolder}/libs/CMSIS/RTOS/Template",
+                "${workspaceFolder}/libs/FreeRTOS/Source/CMSIS_RTOS",
+                "${workspaceFolder}/libs/FreeRTOS/Source/include",
+                "${workspaceFolder}/libs/FreeRTOS/Source/portable/GCC/ARM_CM3",
+                "${workspaceFolder}/libs/STM32F1xx_HAL_Driver/Inc",
+                "${workspaceFolder}/libs/STM32F1xx_HAL_Driver/Inc/Legacy"
+            ],
+            "browse": {
+                "path": [
+                    "/usr/lib/gcc/arm-none-eabi/7.1.0/include",
+                    "/usr/lib/gcc/arm-none-eabi/7.1.0/include-fixed",
+                    "${workspaceFolder}/inc",
+                    "${workspaceFolder}/libs/CMSIS/Device/ST/STM32F1xx/Include",
+                    "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_convolution_example/ARM",
+                    "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_convolution_example/GCC",
+                    "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_fir_example/ARM",
+                    "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_graphic_equalizer_example/ARM",
+                    "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_linear_interp_example/ARM",
+                    "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_matrix_example/ARM",
+                    "${workspaceFolder}/libs/CMSIS/DSP_Lib/Examples/arm_signal_converge_example/ARM",
+                    "${workspaceFolder}/libs/CMSIS/Include",
+                    "${workspaceFolder}/libs/CMSIS/RTOS/Template",
+                    "${workspaceFolder}/libs/FreeRTOS/Source/CMSIS_RTOS",
+                    "${workspaceFolder}/libs/FreeRTOS/Source/include",
+                    "${workspaceFolder}/libs/FreeRTOS/Source/portable/GCC/ARM_CM3",
+                    "${workspaceFolder}/libs/STM32F1xx_HAL_Driver/Inc",
+                    "${workspaceFolder}/libs/STM32F1xx_HAL_Driver/Inc/Legacy"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
+            },
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32",
+                "STM32F1",
+                "STM32F103C8Tx",
+                "DEBUG",
+                "STM32F103xB"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c99",
+            "cppStandard": "c++11"
+        }
+    ],
+    "version": 4
+}

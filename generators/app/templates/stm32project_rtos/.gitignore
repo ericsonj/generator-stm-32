@@ -1,0 +1,4 @@
+out/
+.vscode/.cortex-debug*
+.vscode/browse.vc*
+.vscode/settings.json
